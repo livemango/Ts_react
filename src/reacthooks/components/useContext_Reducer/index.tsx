@@ -5,7 +5,7 @@ import { Color } from "./useMyContext";
 
 function ContextReducer() {
   return (
-    <div>
+    <div style={{background:'grey'}}>
       <Color>
         <ShowArea />
         <Buttons />
